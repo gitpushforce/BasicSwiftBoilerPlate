@@ -13,6 +13,7 @@
 		968FD9872729ED74003F3E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968FD9852729ED74003F3E31 /* Main.storyboard */; };
 		968FD9892729ED75003F3E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968FD9882729ED75003F3E31 /* Assets.xcassets */; };
 		968FD98C2729ED75003F3E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968FD98A2729ED75003F3E31 /* LaunchScreen.storyboard */; };
+		968FD9952729F360003F3E31 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968FD9942729F360003F3E31 /* UIImage+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		968FD9882729ED75003F3E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		968FD98B2729ED75003F3E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		968FD98D2729ED75003F3E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968FD9942729F360003F3E31 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "../../../UIImage+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		968FD97E2729ED74003F3E31 /* BasicSwiftBoilerPlate */ = {
 			isa = PBXGroup;
 			children = (
+				968FD9932729F325003F3E31 /* Extensions */,
 				968FD97F2729ED74003F3E31 /* AppDelegate.swift */,
 				968FD9812729ED74003F3E31 /* SceneDelegate.swift */,
 				968FD9832729ED74003F3E31 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				968FD98D2729ED75003F3E31 /* Info.plist */,
 			);
 			path = BasicSwiftBoilerPlate;
+			sourceTree = "<group>";
+		};
+		968FD9932729F325003F3E31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				968FD9942729F360003F3E31 /* UIImage+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				968FD9842729ED74003F3E31 /* ViewController.swift in Sources */,
+				968FD9952729F360003F3E31 /* UIImage+.swift in Sources */,
 				968FD9802729ED74003F3E31 /* AppDelegate.swift in Sources */,
 				968FD9822729ED74003F3E31 /* SceneDelegate.swift in Sources */,
 			);
